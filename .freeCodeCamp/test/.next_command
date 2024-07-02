@@ -75,3 +75,10 @@ pg_dump -cC --inserts -U freecodecamp universe > universe.sql
 git status
 git commit -m "add table and data"
 git add .
+git commit -m "add table and data"
+git push
+psql --username=freecodecamp --dbname=postgres
+psql --username=freecodecamp --dbname=postgres
+psql --username=freecodecamp --dbname=postgres
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+git add .
