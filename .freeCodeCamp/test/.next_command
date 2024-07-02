@@ -58,3 +58,20 @@ git status
 git add .
 git commit -m "start"
 git config
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+git status
+git add universe.sql
+cd ..
+ls --color=auto
+git status
+cd project/
+git status
+vim .gitignore
+git add universe.sql
+git commit -m "export init"
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+psql --username=freecodecamp --dbname=postgres
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+git status
+git commit -m "add table and data"
+git add .
