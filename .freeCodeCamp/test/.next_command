@@ -56,3 +56,5 @@ pg_dump -cC --inserts -U freecodecamp universe > universe.sql
 ls --color=auto
 git status
 git add .
+git commit -m "start"
+git config
